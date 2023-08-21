@@ -1,0 +1,42 @@
+@import 'var';
+@import 'extends';
+@import 'homePage';
+@import 'aboutPage';
+@import 'skillPage';
+
+html {
+    scroll-behavior: smooth;
+
+    body {
+        background-color: $main-color;
+        padding: 20px 50px;
+        margin: 0px 100px;
+        nav {
+            display: flex;
+            justify-content: space-between;
+
+            .logo {
+                color: $second-color;
+                font-size: 40px;
+            }
+
+            .menu {
+                display: inline-flex;
+                align-items: flex-start;
+                gap: 57px;
+                list-style: none;
+
+                .menu-link {
+                    color: $second-color;
+                    font-size: 20px;
+                    text-decoration: none;
+                }
+
+                .menu-link:hover {
+                    color: $third-color;
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}

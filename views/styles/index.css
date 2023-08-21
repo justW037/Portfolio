@@ -1,0 +1,162 @@
+.text-about {
+  text-align: center;
+  padding: 20px;
+}
+.text-about .p1 {
+  color: #6B5B41;
+  font-size: 24px;
+}
+.text-about .p2 {
+  color: #98782F;
+  font-weight: 600;
+  font-size: 58px;
+}
+
+.card, #skill .skillCards .skillCard, #about .info .infoS .infoCard .about-card {
+  border-radius: 32px;
+  border-color: #98782F;
+  border-width: 1.6px;
+  border-style: solid;
+  background-color: #1D3331;
+  color: #98782F;
+  flex: 1;
+}
+
+#profile {
+  display: flex;
+  gap: 5rem;
+  height: 100vh;
+}
+#profile .big-logo {
+  color: #98782F;
+  font-size: 40rem;
+  width: 100%;
+  flex: 1;
+}
+#profile .section-text {
+  flex: 1;
+  text-align: center;
+  align-self: center;
+}
+#profile .section-text .section-text-1 {
+  color: white;
+  font-weight: 600;
+}
+#profile .section-text .name {
+  color: #98782F;
+  font-size: 48px;
+}
+#profile .section-text .section-text-2 {
+  color: white;
+  font-weight: 500;
+  font-size: 28px;
+}
+#profile .moreBtn {
+  display: flex;
+  justify-content: space-evenly;
+}
+#profile .moreBtn .dlBtn {
+  align-items: flex-start;
+  border-color: white;
+  background-color: #1D3331;
+  border-radius: 32px;
+  border-style: solid;
+  border-width: 1.6px;
+  color: white;
+  font-weight: 600;
+  padding: 10px 10px;
+  text-align: center;
+}
+#profile .moreBtn .dlBtn:hover {
+  border-color: #98782F;
+  background-color: #98782F;
+  transition-delay: 0s;
+  color: #1D3331;
+  transition-delay: 0s;
+}
+
+#about {
+  height: 100vh;
+}
+#about .info {
+  display: flex;
+  gap: 64px;
+}
+#about .info .aboutImg {
+  width: 400px;
+  height: 400px;
+  border-radius: 32px;
+  flex: 1;
+}
+#about .info .infoS {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#about .info .infoS .infoCard {
+  display: flex;
+  gap: 32px;
+  margin: 32px 0px;
+}
+#about .info .infoS .infoCard .about-card {
+  padding: 24px;
+  text-align: center;
+}
+#about .info .infoS .infoCard .about-card .titleInfo {
+  font-weight: 700;
+  color: white;
+}
+#about .info .infoS .infoCard .about-card .detail {
+  font-size: 20px;
+}
+#about .info .infoS .text-info {
+  font-size: 23px;
+  color: #98782F;
+}
+
+#skill {
+  height: 100vh;
+}
+#skill .skillCards {
+  display: flex;
+  gap: 30px;
+}
+#skill .skillCards .skillCard {
+  padding: 20px;
+}
+#skill .skillCards .skillCard .cardTitle {
+  text-align: center;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+html body {
+  background-color: #1D3331;
+  padding: 20px 50px;
+  margin: 0px 100px;
+}
+html body nav {
+  display: flex;
+  justify-content: space-between;
+}
+html body nav .logo {
+  color: #98782F;
+  font-size: 40px;
+}
+html body nav .menu {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 57px;
+  list-style: none;
+}
+html body nav .menu .menu-link {
+  color: #98782F;
+  font-size: 20px;
+  text-decoration: none;
+}
+html body nav .menu .menu-link:hover {
+  color: #6B5B41;
+  text-decoration: underline;
+}/*# sourceMappingURL=index.css.map */

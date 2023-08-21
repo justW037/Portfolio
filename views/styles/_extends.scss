@@ -1,0 +1,26 @@
+.text-about {
+    text-align: center;
+    padding: 20px;
+
+    .p1 {
+        color: $third-color;
+        font-size: 24px;
+
+    }
+
+    .p2 {
+        color: $second-color;
+        font-weight: 600;
+        font-size: 58px;
+    }
+}
+
+.card {
+    border-radius: 32px;
+    border-color: $second-color;
+    border-width: 1.6px;
+    border-style: solid;
+    background-color: $main-color;
+    color: $second-color;
+    flex: 1;
+}

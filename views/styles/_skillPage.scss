@@ -1,0 +1,14 @@
+#skill {
+    height: 100vh;
+    .skillCards{
+        display: flex;
+        gap: 30px;
+        .skillCard{
+            @extend .card;
+            padding: 20px;
+            .cardTitle{
+                text-align: center;
+            }
+        }
+    }
+}
