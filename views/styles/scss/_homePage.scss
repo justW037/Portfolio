@@ -1,0 +1,43 @@
+#profile {
+    display: flex;
+    gap: 5rem;
+    height: 100vh;
+
+    .big-logo {
+        color: $second-color;
+        font-size: 40rem;
+        width: 100%;
+        flex: 1;
+    }
+
+    .section-text {
+        flex: 1;
+        text-align: center;
+        align-self: center;
+
+        .section-text-1 {
+            color: white;
+            font-weight: 600;
+        }
+
+        .name {
+            color: $second-color ;
+            font-size: 48px;
+        }
+
+        .section-text-2 {
+            color: white;
+            font-weight: 500;
+            font-size: 28px;
+        }
+    }
+
+    .moreBtn {
+        display: flex;
+        justify-content: space-evenly;
+
+        .dlBtn {
+            @extend .button
+        }
+    }
+}
